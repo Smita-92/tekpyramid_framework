@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="CrmUsingCongfAnnotation.CreateProduct">
+        <methods>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="createProductwithctgry"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- CrmUsingCongfAnnotation.CreateProduct -->
+      <class name="CrmUsingCongfAnnotation.CreateContact">
+        <methods>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="createcontactlnTest"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="CreateContactWithphno"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- CrmUsingCongfAnnotation.CreateContact -->
+      <class name="CrmUsingCongfAnnotation.CreateLead">
+        <methods>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="creatreLead"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="createLeadwithphno"/>
+        </methods>
+      </class> <!-- CrmUsingCongfAnnotation.CreateLead -->
+      <class name="CrmUsingCongfAnnotation.CreateOrg">
+        <methods>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="configBM"/>
+          <include name="createorgwithnameTest"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- CrmUsingCongfAnnotation.CreateOrg -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
