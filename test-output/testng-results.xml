@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-14T12:19:56 IST" name="Default suite" finished-at="2025-02-14T12:20:13 IST" duration-ms="17549">
+  <suite started-at="2025-07-03T11:36:02 IST" name="Default suite" finished-at="2025-07-03T11:36:55 IST" duration-ms="53302">
     <groups>
     </groups>
-    <test started-at="2025-02-14T12:19:56 IST" name="Default test" finished-at="2025-02-14T12:20:13 IST" duration-ms="17549">
-      <class name="jupiter.Scenario1">
-        <test-method signature="testcase1()[pri:0, instance:jupiter.Scenario1@13e344d]" started-at="2025-02-14T12:19:56 IST" name="testcase1" finished-at="2025-02-14T12:20:13 IST" duration-ms="17449" status="PASS">
+    <test started-at="2025-07-03T11:36:02 IST" name="Default test" finished-at="2025-07-03T11:36:55 IST" duration-ms="53302">
+      <class name="meesho.testcase1">
+        <test-method signature="testcase1()[pri:0, instance:meesho.testcase1@6340e5f0]" started-at="2025-07-03T11:36:02 IST" name="testcase1" finished-at="2025-07-03T11:36:55 IST" duration-ms="53181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase1 -->
-      </class> <!-- jupiter.Scenario1 -->
+      </class> <!-- meesho.testcase1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
